@@ -1,0 +1,70 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Example Article",
+      "content": "This is an example."
+    },
+    {
+      "id": 2,
+      "title": "Second Article",
+      "content": "This is also an example."
+    },
+    {
+      "title": "Third Article",
+      "content": "Another example!",
+      "id": 3
+    },
+    {
+      "blogs": {
+        "title1": "JSON Server",
+        "content1": "What is JSON?",
+        "title2": "Postman",
+        "content2": "What is Postman APP?",
+        "article": [
+          {
+            "title": "Setting up JSON server",
+            "content": "Set up JSON Server as a mock backend"
+          },
+          {
+            "title": "Setting up Postman",
+            "content": "guide to set up the APP and Use it to mimic frontend responses"
+          },
+          {
+            "title": "JSON Server and Postman",
+            "content": "Practice the client/server request/response cycle"
+          }
+        ]
+      },
+      "id": 4
+    },
+    {
+      "users": [
+        {
+          "name": "Mohamed"
+        },
+        {
+          "name": "Omar"
+        },
+        {
+          "name": "Ali"
+        }
+      ],
+      "products": {
+        "product1": {
+          "name": "Phone",
+          "price": 500
+        },
+        "product2": {
+          "name": "Laptop",
+          "price": 1000
+        },
+        "product3": {
+          "name": "Tablet",
+          "price": 300
+        }
+      },
+      "id": 5
+    }
+  ]
+}
